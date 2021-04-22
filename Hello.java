@@ -14,3 +14,21 @@ public class Hello {
 		System.out.println("G.J.Zhou is studying java!");
 	}
 }
+
+//一个源文件中最多只能有一个piublic类，其它类的个数不限。
+//Dog 是一个类
+//编译后，每一个类，都对于一个.class
+class Dog {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, 小狗狗！");
+	}
+
+}
+class Tiger {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, 小老虎！");
+    }
+
+}
